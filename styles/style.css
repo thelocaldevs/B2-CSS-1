@@ -1,0 +1,35 @@
+.heading {
+  width: 100px;
+  /* padding: 50px; */
+  /* padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+  padding-bottom: 50px; */
+  /* padding: 20px 30px 40px 50px; */
+  padding: 50px 100px;
+  margin: auto;
+  border: 5px solid red;
+}
+
+#plabon {
+  /* width: fit-content; */
+  /* named color */
+  /* color: steelblue; */
+  /* hex color */
+  color: #7a21ff;
+  /* rgb color */
+  /* color: rgb(0, 255, 0); */
+  /* rgba color */
+  /* color: rgba(0, 255, 0, 0.1); */
+
+  /* background color */
+  background-color: #ee5959;
+}
+
+#main {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../assets/bg/bg1.jpg");
+  background-position: center;
+  background-size: contain;
+}
