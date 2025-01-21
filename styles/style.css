@@ -15,8 +15,17 @@
   padding: 50px 100px;
   margin: auto;
   border: 5px solid red;
-  font-size: 80px;
+  font-size: 32px;
   font-weight: 900;
+  background-color: #a6ff00;
+
+  /* position: sticky;
+  top: 0; */
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+  z-index: 100;
 }
 
 #plabon {
@@ -59,11 +68,66 @@
   font-weight: 500;
   color: #ff0000;
   text-align: justify;
-  line-height: 80px;
+  /* line-height: 80px; */
   /* text-decoration: underline;
   text-decoration-color: #fff;
   text-decoration-style: dotted;
   text-decoration-thickness: 10px; */
   text-transform: capitalize;
-  letter-spacing: 10px;
+  /* letter-spacing: 10px; */
+}
+
+/* Positions */
+.parent {
+  width: 500px;
+  height: 500px;
+  background-color: #00a123;
+  margin: 100px auto;
+  font-size: 28px;
+  font-weight: 700;
+
+  position: relative;
+}
+.child {
+  width: 150px;
+  height: 150px;
+  background-color: #b60000;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 10px;
+
+  /* position: relative;
+  left: 50px;
+  bottom: 50px; */
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+
+.firstH1 {
+  display: inline;
+}
+.blockElement {
+  display: block;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #00a123;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 10px;
+
+  /* display inline  */
+  /* display: inline-block; */
+}
+/* .box-bigger {
+  width: 200px;
+  height: 200px;
+} */
+
+.parent-box {
+  display: flex;
 }
